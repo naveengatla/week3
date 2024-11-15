@@ -35,3 +35,7 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+config/*.json  # SDK config files with credentials
+local.settings.json  # Azure Functions local settings
+node_modules/  # Dependency folders
